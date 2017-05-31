@@ -15,7 +15,7 @@ namespace DockerDotNetDevsSample1
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
+                .UseIISIntegration()                
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();

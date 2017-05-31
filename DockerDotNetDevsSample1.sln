@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerDotNetDevsSample1", "src\DockerDotNetDevsSample1\DockerDotNetDevsSample1.csproj", "{51D75AC1-A1FA-4E6A-A1D1-C7BC1476BD76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotNetDevsSample1", "src\DockerDotNetDevsSample1\DockerDotNetDevsSample1.csproj", "{51D75AC1-A1FA-4E6A-A1D1-C7BC1476BD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{4A24AC09-D19D-4F8B-8F12-79757DBDF7B2}"
+	ProjectSection(SolutionItems) = preProject
+		dockerfile = dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
